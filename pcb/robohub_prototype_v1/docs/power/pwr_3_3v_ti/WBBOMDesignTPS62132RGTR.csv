@@ -1,0 +1,8 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Cinx,MuRata,GRM155R71C104KA88D,1,0.01,3,Cap: 100 nF  Total Derated Cap: 92 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0402  
+Cin,Kemet,C0805C106K8PACTU,1,0.03,6.75,Cap: 10 µF  Total Derated Cap: 4.9 µF  VDC: 10 V  ESR: 3 mΩ  Package: 0805  
+Cout,MuRata,GRM188R60J226MEA0D,1,0.04,4.68,Cap: 22 µF  Total Derated Cap: 7.9 µF  VDC: 6.3 V  ESR: 1 mΩ  Package: 0603  
+Css,MuRata,GRM033R71C391KA01D,1,0.01,2.08,Cap: 390 pF  Total Derated Cap: 390 pF  VDC: 16 V  ESR: 1 mΩ  Package: 0201  
+L1,Coilcraft,XAL5030-222MEB,1,0.63,54.45,L: 2.2 µH  DCR: 13.2 mΩ  IDC: 9.2 A  
+Rpg,Vishay-Dale,CRCW0402100KFKED,1,0.01,3,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 63 mW  
+U1,Texas Instruments,TPS62132RGTR,1,0.615,16,

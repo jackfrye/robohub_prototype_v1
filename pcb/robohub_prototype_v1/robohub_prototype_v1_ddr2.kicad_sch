@@ -17080,7 +17080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom_footprint:W972GG6KB-25"
+		(property "Footprint" "fryelabs:W972GG6KB-25"
 			(at 71.12 86.36 0)
 			(effects
 				(font
@@ -17952,7 +17952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom_footprint:W972GG6KB-25"
+		(property "Footprint" "fryelabs:W972GG6KB-25"
 			(at 191.77 86.36 0)
 			(effects
 				(font
@@ -19036,7 +19036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom_footprint:SAMA5D27C-CNVAO"
+		(property "Footprint" "fryelabs:ATSAMA5D27C"
 			(at 55.118 359.664 0)
 			(effects
 				(font

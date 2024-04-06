@@ -38824,7 +38824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_footprint:SAMA5D27C-CNVAO"
+		(property "Footprint" "fryelabs:ATSAMA5D27C"
 			(at 372.618 362.204 0)
 			(effects
 				(font
@@ -39964,7 +39964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_footprint:SAMA5D27C-CNVAO"
+		(property "Footprint" "fryelabs:ATSAMA5D27C"
 			(at 386.588 183.134 0)
 			(effects
 				(font
@@ -40966,7 +40966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_footprint:SAMA5D27C-CNVAO"
+		(property "Footprint" "fryelabs:ATSAMA5D27C"
 			(at 61.468 256.794 0)
 			(effects
 				(font
@@ -42038,7 +42038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_footprint:SAMA5D27C-CNVAO"
+		(property "Footprint" "fryelabs:ATSAMA5D27C"
 			(at 150.368 150.114 0)
 			(effects
 				(font
@@ -43113,7 +43113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_footprint:SAMA5D27C-CNVAO"
+		(property "Footprint" "fryelabs:ATSAMA5D27C"
 			(at 58.928 153.924 0)
 			(effects
 				(font
@@ -44045,7 +44045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_footprint:SAMA5D27C-CNVAO"
+		(property "Footprint" "fryelabs:ATSAMA5D27C"
 			(at 142.748 258.064 0)
 			(effects
 				(font

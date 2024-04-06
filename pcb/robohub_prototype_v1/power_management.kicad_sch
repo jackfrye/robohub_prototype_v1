@@ -9996,7 +9996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_footprint:TPS564247DRLR"
+		(property "Footprint" "fryelabs:TPS564247DRLR"
 			(at 165.1 134.62 0)
 			(effects
 				(font
@@ -10423,7 +10423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_footprint:TPS564247DRLR"
+		(property "Footprint" "fryelabs:TPS564247DRLR"
 			(at 163.83 257.81 0)
 			(effects
 				(font
@@ -10711,7 +10711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 130.302 262.89 90)
 			(effects
 				(font
@@ -12441,7 +12441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_footprint:TPS564247DRLR"
+		(property "Footprint" "fryelabs:TPS564247DRLR"
 			(at 162.56 381 0)
 			(effects
 				(font
@@ -12732,7 +12732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 130.302 325.12 90)
 			(effects
 				(font
@@ -14203,7 +14203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 187.452 320.04 90)
 			(effects
 				(font
@@ -14551,7 +14551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.032 445.77 90)
 			(effects
 				(font
@@ -14760,7 +14760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 187.452 198.12 90)
 			(effects
 				(font
@@ -16771,7 +16771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.032 386.08 90)
 			(effects
 				(font
@@ -16910,7 +16910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_footprint:TPS564247DRLR"
+		(property "Footprint" "fryelabs:TPS564247DRLR"
 			(at 163.83 198.12 0)
 			(effects
 				(font
@@ -17409,7 +17409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 130.302 203.2 90)
 			(effects
 				(font
@@ -18379,7 +18379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_footprint:TPS564247DRLR"
+		(property "Footprint" "fryelabs:TPS564247DRLR"
 			(at 162.56 440.69 0)
 			(effects
 				(font
@@ -18461,7 +18461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_footprint:TPS564247DRLR"
+		(property "Footprint" "fryelabs:TPS564247DRLR"
 			(at 163.83 320.04 0)
 			(effects
 				(font
