@@ -6878,7 +6878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fryelabs:KSZ8081RNB"
+		(property "Footprint" "fryelabs_kicad_footprint_lib:KSZ8081RNB"
 			(at 83.82 93.98 0)
 			(effects
 				(font
@@ -8012,7 +8012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fryelabs:SI-60110-F"
+		(property "Footprint" "fryelabs_kicad_footprint_lib:SI-60110-F"
 			(at 72.39 170.18 0)
 			(effects
 				(font

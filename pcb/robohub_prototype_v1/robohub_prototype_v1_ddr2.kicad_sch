@@ -17080,7 +17080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fryelabs:W972GG6KB-25"
+		(property "Footprint" "fryelabs_kicad_footprint_lib:W972GG6KB-25"
 			(at 71.12 86.36 0)
 			(effects
 				(font
@@ -17952,7 +17952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fryelabs:W972GG6KB-25"
+		(property "Footprint" "fryelabs_kicad_footprint_lib:W972GG6KB-25"
 			(at 191.77 86.36 0)
 			(effects
 				(font
@@ -18478,7 +18478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 89.662 210.82 90)
 			(effects
 				(font
@@ -18688,7 +18688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.362 205.74 90)
 			(effects
 				(font
@@ -19036,7 +19036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fryelabs:ATSAMA5D27C"
+		(property "Footprint" "fryelabs_kicad_footprint_lib:ATSAMA5D27C"
 			(at 55.118 359.664 0)
 			(effects
 				(font

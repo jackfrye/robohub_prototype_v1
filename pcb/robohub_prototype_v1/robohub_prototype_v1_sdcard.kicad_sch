@@ -1992,7 +1992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fryelabs:molex_5025700893"
+		(property "Footprint" "fryelabs_kicad_footprint_lib:molex_5025700893"
 			(at 163.83 78.74 0)
 			(effects
 				(font
