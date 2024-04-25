@@ -360,6 +360,139 @@
 				)
 			)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -1984,6 +2117,12 @@
 		(uuid "e63fad4d-d02c-469c-9a7b-40ec420fb286")
 	)
 	(junction
+		(at 67.31 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e78ef188-a62e-485d-9c5a-6b25d8da41e1")
+	)
+	(junction
 		(at 353.06 412.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2207,7 +2346,7 @@
 	)
 	(polyline
 		(pts
-			(xy 83.82 91.44) (xy 83.82 48.26)
+			(xy 105.41 92.71) (xy 105.41 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3265,16 +3404,6 @@
 		)
 		(uuid "3858a868-3948-44c6-a3b5-a537ad1db51e")
 	)
-	(polyline
-		(pts
-			(xy 25.4 48.26) (xy 25.4 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "390a3a88-ee3e-442d-a703-d23cc9f89440")
-	)
 	(wire
 		(pts
 			(xy 104.14 128.27) (xy 104.14 113.03)
@@ -3364,6 +3493,16 @@
 			(type default)
 		)
 		(uuid "3eca9c37-2c25-4a8e-85ab-1633956a0c7c")
+	)
+	(wire
+		(pts
+			(xy 67.31 73.66) (xy 72.39 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f52bf08-280b-4196-9e1c-f8e8f2b7a27d")
 	)
 	(wire
 		(pts
@@ -4177,7 +4316,7 @@
 	)
 	(polyline
 		(pts
-			(xy 25.4 91.44) (xy 83.82 91.44)
+			(xy 25.4 92.71) (xy 105.41 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6577,7 +6716,7 @@
 	)
 	(polyline
 		(pts
-			(xy 25.4 52.07) (xy 25.4 91.44)
+			(xy 25.4 49.53) (xy 25.4 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6777,6 +6916,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 67.31) (xy 86.36 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfff4ee7-6d8b-438e-ad77-f20f51224e61")
+	)
+	(wire
+		(pts
 			(xy 111.76 314.96) (xy 111.76 317.5)
 		)
 		(stroke
@@ -6827,7 +6976,7 @@
 	)
 	(polyline
 		(pts
-			(xy 83.82 48.26) (xy 25.4 48.26)
+			(xy 105.41 49.53) (xy 25.4 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7484,6 +7633,16 @@
 			(type default)
 		)
 		(uuid "fd44cc36-b32a-4c5a-9ad6-df74421b0b9e")
+	)
+	(wire
+		(pts
+			(xy 80.01 73.66) (xy 86.36 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc6481a-7c2e-40b9-abb9-0f44cb0977ba")
 	)
 	(wire
 		(pts
@@ -8418,6 +8577,28 @@
 	)
 	(global_label "5V"
 		(shape input)
+		(at 86.36 67.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94ea8b2f-1684-4fdd-9b9b-dfada1a258e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.2806 62.5988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
 		(at 67.31 67.31 90)
 		(fields_autoplaced yes)
 		(effects
@@ -8428,7 +8609,7 @@
 		)
 		(uuid "964c4c68-3058-47f9-be68-6ae4b55ff594")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.2306 62.5988 90)
+			(at 67.31 60.6962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16944,6 +17125,74 @@
 			(project "robohub_prototype_v1"
 				(path "/bc29dce2-fa63-43eb-9ef7-3b495f27cc69/73c1b947-11e9-40cf-af03-56c22766304e"
 					(reference "L26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 76.2 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed86bf31-4da8-423f-bd13-e09d51190ae3")
+		(property "Reference" "F1"
+			(at 76.2 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 76.2 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fryelabs_kicad_footprint_lib:0ZCF0050FF2C"
+			(at 76.2 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17805ee6-f6c5-455a-9ed1-f36e02d6a1a5")
+		)
+		(pin "1"
+			(uuid "f934987b-b0e9-4a2a-9fa4-e5d07d498e97")
+		)
+		(instances
+			(project "robohub_prototype_v1"
+				(path "/bc29dce2-fa63-43eb-9ef7-3b495f27cc69/73c1b947-11e9-40cf-af03-56c22766304e"
+					(reference "F1")
 					(unit 1)
 				)
 			)
