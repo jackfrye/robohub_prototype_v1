@@ -13922,6 +13922,16 @@
 		)
 		(uuid "ffa474c5-08f5-417f-b565-79126c46a530")
 	)
+	(text "FROM REFERENCE DESIGN\nKeep nets as short as possible, therefore, DDR devices have to be placed close as possible of SAMA5D27\nThe layout DDR should use controlled impedance traces of ZO= 50ohm characteristic impedance.\n\nAddress, control and data traces may not exceed 1.3 inches (33.0 mm).\nAddress, control and data traces must be length-matched to within 0.1 inch (2.54mm).\nAddress, control and data traces must match the data group trace lengths to within 0.25 inches (6.35mm)."
+		(exclude_from_sim no)
+		(at 145.034 278.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "573bce80-a5fe-47af-8efa-3ee8a641de52")
+	)
 	(text "[3] DDR2 Memory"
 		(exclude_from_sim no)
 		(at 12.7 34.29 0)
