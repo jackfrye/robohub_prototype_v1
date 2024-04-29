@@ -12425,6 +12425,17 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(uuid "cba934df-adc5-4220-887d-f3126a65fd50")
 		)
+		(model "/home/jackfrye/Documents/PCB/pcbs/fryelabs-pcb-library-private/mechanical/W972GG6KB-25/W972GG6KB-25.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -16297,6 +16308,17 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(uuid "14485e46-36a3-45d5-9716-3b05b6658734")
 		)
+		(model "/home/jackfrye/Documents/PCB/pcbs/fryelabs-pcb-library-private/mechanical/W972GG6KB-25/W972GG6KB-25.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "fryelabs_kicad_footprint_lib:KSZ8081RNB"
 		(layer "F.Cu")
@@ -16983,6 +17005,17 @@
 			(pintype "passive")
 			(thermal_bridge_angle 45)
 			(uuid "74b51e4d-228b-4cca-8287-6edb050193af")
+		)
+		(model "/home/jackfrye/Documents/PCB/pcbs/fryelabs-pcb-library/mechanical/0ZCF0050FF2C/0ZCF_BEL.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "fryelabs_kicad_footprint_lib:ATSAMA5D27C"
