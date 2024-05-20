@@ -139,12 +139,6 @@
 		(uuid "1df76424-f675-4489-8cc2-3c74778bd6be")
 	)
 	(junction
-		(at 166.37 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "210b9fc0-4616-4d31-ab09-4a833e52a19a")
-	)
-	(junction
 		(at 166.37 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -209,6 +203,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77acac18-7e9b-4b80-b50b-2c91871ec511")
+	)
+	(junction
+		(at 105.41 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79bfa18e-1312-4085-9130-d09a57879a1a")
 	)
 	(junction
 		(at 105.41 105.41)
@@ -301,12 +301,6 @@
 		(uuid "d9e26704-b106-4e45-ba0d-2259f627aec6")
 	)
 	(junction
-		(at 105.41 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dcd50e5e-5c90-49ee-ac24-b465d4845994")
-	)
-	(junction
 		(at 166.37 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -389,16 +383,6 @@
 			(type default)
 		)
 		(uuid "2b7fa1cf-4ca6-4561-8368-c311bb587801")
-	)
-	(wire
-		(pts
-			(xy 166.37 85.09) (xy 167.64 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a90f8a8-4d58-448e-9ac4-31abb9bcd7c8")
 	)
 	(wire
 		(pts
@@ -672,6 +656,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 85.09) (xy 111.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2607d6-0e68-4b72-861b-a6fa7e36ec3e")
+	)
+	(wire
+		(pts
 			(xy 104.14 77.47) (xy 105.41 77.47)
 		)
 		(stroke
@@ -862,16 +856,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 85.09) (xy 166.37 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec4dcd50-c81a-4366-8838-171c240846bd")
-	)
-	(wire
-		(pts
 			(xy 105.41 97.79) (xy 166.37 97.79)
 		)
 		(stroke
@@ -970,6 +954,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DDR_VREF"
+		(shape input)
+		(at 111.76 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae839659-34bf-4f82-bac9-7d64f0c2e904")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.119 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1203,16 +1209,6 @@
 				(justify left)
 			)
 			(uuid "79a30096-ffc9-4569-8e6d-c4cfd3bbd64c")
-		)
-		(pin "DDR_VREF" input
-			(at 166.37 85.09 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fa64762e-144b-4cbd-a317-ea9b31e6ea20")
 		)
 		(pin "ADVREF" input
 			(at 166.37 80.01 180)

@@ -15857,6 +15857,28 @@
 		)
 		(uuid "fec392e7-56b7-48e7-a0de-e3c52c44c49f")
 	)
+	(global_label "DDR_VREF"
+		(shape input)
+		(at 120.65 156.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0bbe95b9-02a4-48a8-9857-42a0c48d2816")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.65 143.851 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 104.14 213.36 270)
@@ -15875,6 +15897,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DDR_VREF"
+		(shape input)
+		(at 95.25 391.16 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11a6d856-7fc6-433f-999d-345cdd895466")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 378.801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -16055,6 +16099,28 @@
 			)
 		)
 	)
+	(global_label "DDR_VREF"
+		(shape input)
+		(at 241.3 156.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c17b358-8e7c-4495-997e-dcbb60a69ec6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.3 143.851 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 101.6 185.42 270)
@@ -16099,32 +16165,6 @@
 			)
 		)
 	)
-	(hierarchical_label "DDR_VREF"
-		(shape input)
-		(at 241.3 156.21 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "259bfa21-5a5e-4c54-a643-a32d7815d974")
-	)
-	(hierarchical_label "DDR_VREF"
-		(shape input)
-		(at 120.65 156.21 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "4c59ccf5-949d-47b2-bfc4-53af92c9e3fb")
-	)
 	(hierarchical_label "VDDIODDR"
 		(shape input)
 		(at 251.46 99.06 90)
@@ -16160,19 +16200,6 @@
 			(justify left)
 		)
 		(uuid "969c894c-94f0-4ba7-9f64-1945e85ad4ae")
-	)
-	(hierarchical_label "DDR_VREF"
-		(shape input)
-		(at 95.25 391.16 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "9c842b4a-0569-48a3-a13b-799769bd90f0")
 	)
 	(hierarchical_label "VDDIODDR"
 		(shape input)
